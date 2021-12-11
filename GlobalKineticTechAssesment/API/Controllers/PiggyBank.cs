@@ -14,7 +14,7 @@ namespace API.Controllers
     /// PiggyBank Controller to Add US Coins to a jar, get the value of money in the jar and empty the jar
     /// </summary>
     [ApiController]
-    [Route("[controller]")]    
+    [Route("api/[controller]/[action]")]    
     public class PiggyBank : ControllerBase
     {
         private readonly IBusinessLogic _businessLogic;
